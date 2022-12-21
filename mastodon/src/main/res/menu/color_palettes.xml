@@ -8,4 +8,5 @@
     <item android:id="@+id/brown_color" android:title="@string/sk_color_palette_brown"/>
     <item android:id="@+id/red_color" android:title="@string/sk_color_palette_red"/>
     <item android:id="@+id/yellow_color" android:title="@string/sk_color_palette_yellow"/>
+    <item android:id="@+id/sussyred_color" android:title="@string/sk_color_pallete_sussyred" />
 </menu>

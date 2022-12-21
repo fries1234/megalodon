@@ -268,6 +268,7 @@ public class SettingsFragment extends MastodonToolbarFragment{
 		else if (id == R.id.brown_color) pref = ColorPreference.BROWN;
 		else if (id == R.id.red_color) pref = ColorPreference.RED;
 		else if (id == R.id.yellow_color) pref = ColorPreference.YELLOW;
+		else if (id == R.id.sussyred_color) pref = ColorPreference.SUSSYRED;
 
 		if (pref == null) return false;
 
@@ -744,6 +745,7 @@ public class SettingsFragment extends MastodonToolbarFragment{
 				case BROWN -> R.string.sk_color_palette_brown;
 				case RED -> R.string.sk_color_palette_red;
 				case YELLOW -> R.string.sk_color_palette_yellow;
+				case SUSSYRED -> R.string.sk_color_pallete_sussyred;
 				default -> throw new IllegalStateException("Unexpected value: "+GlobalUserPreferences.color);
 			});
 		}

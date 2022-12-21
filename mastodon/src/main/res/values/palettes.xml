@@ -204,4 +204,18 @@
 		<item name="colorGray50">#ffede6</item>
 		<item name="colorGray25">#f7f8fa</item>
 	</style>
+
+	<style name="ColorPalette.SussyRed">
+		<item name="colorPrimary25">#ffffff</item>
+		<item name="colorPrimary50">#fbe9e9</item>
+		<item name="colorPrimary100">#f7d2d3</item>
+		<item name="colorPrimary200">#f3bcbd</item>
+		<item name="colorPrimary300">#efa5a7</item>
+		<item name="colorPrimary400">#eb8f91</item>
+		<item name="colorPrimary500">#e7787a</item>
+		<item name="colorPrimary600">#e36264</item>
+		<item name="colorPrimary700">#df4b4e</item>
+		<item name="colorPrimary800">#db3438</item>
+		<item name="colorPrimary900">#d71e22</item>
+	</style>
 </resources>

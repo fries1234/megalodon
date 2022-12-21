@@ -49,22 +49,6 @@ class ColorPalette {
         this.base = baseRes
     }
 
-    // tbh i dont even know why this is here.
-    // its literally never used but it was in the old class so might as well write it anyways.
-    constructor(
-        @StyleRes lightRes: Int,
-        @StyleRes darkRes: Int,
-        @StyleRes autoDarkRes: Int,
-        @StyleRes blackRes: Int,
-        @StyleRes autoBlackRes: Int
-    ) {
-        this.light = lightRes
-        this.dark = darkRes
-        this.autoDark = autoDarkRes
-        this.black = blackRes
-        this.autoBlack = autoBlackRes
-    }
-
     fun light(@StyleRes res: Int): ColorPalette {
         this.light = res
         return this
